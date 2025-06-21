@@ -81,4 +81,4 @@ async def 출석목록(ctx):
     await ctx.send("🏆 출석 랭킹:\n" + "\n".join(members))
 
 # 여기에 봇 토큰 붙여넣기!
-bot.run("MTM4NTkyODg1NjU0MzY5MDkyMw.G_BJLb.FVeOX247rxmzpmPGoSKESFETLG0UauNhMKZ450")
+bot.run(os.environ['DISCORD_TOKEN'])
